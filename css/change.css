@@ -1,0 +1,36 @@
+body {
+  padding: 100px;
+}
+
+.container1 {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+
+.container1 .item1 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transform: perspective(300px) rotateX(45deg) translateX(100px);
+}
+
+.container2 {
+  margin: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  perspective: 250px;
+}
+
+.container2 .item2 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform : rotateY(180deg);
+  backface-visibility: hidden;
+}

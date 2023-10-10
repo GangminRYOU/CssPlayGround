@@ -1,0 +1,14 @@
+.container {
+  background-color: royalblue;
+  display: flex;
+  width: 250px;
+  /* height: 200px; */
+  flex-wrap: wrap;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orchid;
+}
